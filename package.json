@@ -1,0 +1,34 @@
+{
+  "name": "@uniwise/eslint-config",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "WISEflow's ESLint config for React projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNIwise/eslint-config.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-import": "2.x",
+    "@typescript-eslint/eslint-plugin": "4.x",
+    "@typescript-eslint/parser": "4.x"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.x",
+    "eslint-plugin-react": ">=7.7.0 <8",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-import": "2.x",
+    "@typescript-eslint/eslint-plugin": "4.x",
+    "@typescript-eslint/parser": "4.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
