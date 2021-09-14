@@ -20,6 +20,12 @@ After installing, update your project's `.eslintrc.json` file to import the rule
 }
 ```
 
+To run the linter:
+
+```sh
+yarn eslint src/ 
+```
+
 ---
 
 Read the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
