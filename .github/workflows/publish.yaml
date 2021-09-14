@@ -9,6 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+          registry-url: 'https://npm.pkg.github.com'
+          always-auth: true
+          scope: '@uniwise'
 
       - name: Version
         run: yarn version --new-version "${GITHUB_REF:11}" --no-git-tag-version
