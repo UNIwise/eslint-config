@@ -1,5 +1,4 @@
 module.exports = {
-    plugins: ["react", "import", "@typescript-eslint", "react-hooks"],
     parser: "@typescript-eslint/parser",
     parserOptions: {
         ecmaVersion: 2020,
@@ -13,12 +12,21 @@ module.exports = {
             version: "detect",
         },
     },
+    plugins: [
+        "@typescript-eslint",
+        "react",
+        "react-hooks",
+        "import",
+        "prettier",
+    ],
     extends: [
-        "plugin:react/recommended",
+        "eslint:recommended"
         "plugin:@typescript-eslint/recommended",
-        "plugin:import/errors",
-        "plugin:import/warnings",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:import/recommended",
         "plugin:import/typescript",
+        "plugin:prettier/recommended",
     ],
     rules: {
         "react/prop-types": "off",
