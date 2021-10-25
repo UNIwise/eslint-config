@@ -11,9 +11,6 @@ module.exports = {
         react: {
             version: "detect",
         },
-        "import/resolver": {
-            typescript: {},
-        },
     },
     plugins: ["@typescript-eslint", "react", "import", "prettier"],
     extends: [
