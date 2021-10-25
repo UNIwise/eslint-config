@@ -5,7 +5,7 @@ WISEflow's ESLint config for react.
 ## Installation
 
 ```sh
-yarn add --dev @uniwise/eslint-config eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript  eslint-plugin-react eslint-plugin-import prettier eslint-config-prettier eslint-plugin-prettier 
+yarn add --dev @uniwise/eslint-config typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript  eslint-plugin-react eslint-plugin-import prettier eslint-config-prettier eslint-plugin-prettier 
 ```
 
 ## Usage
