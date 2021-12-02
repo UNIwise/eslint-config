@@ -1,27 +1,14 @@
+import eslintrc_react from "./.eslintrc_react.js";
+import eslintrc_typescript from "./.eslintrc_typescript.js";
+import eslintrc_angular from './eslintrc_angular.js';
+
 module.exports = {
-    parser: "@typescript-eslint/parser",
-    parserOptions: {
-        ecmaVersion: 2020,
-        sourceType: "module",
-        ecmaFeatures: {
-            jsx: true,
-        },
-    },
-    settings: {
-        react: {
-            version: "detect",
-        },
-    },
-    plugins: ["@typescript-eslint", "react", "import", "prettier"],
-    extends: [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended",
-        "plugin:import/recommended",
-        "plugin:import/typescript",
-        "plugin:prettier/recommended",
-    ],
-    rules: {
-        "react/prop-types": "off",
-    },
+  configs: {
+    /** Rules and plugins extended for React development in Typescript */
+    react: eslintrc_react,
+    /** Rules and plugins extended for Typescript (without React) */
+    typescript: eslintrc_typescript,
+    /** Rules and plugins extended for AngularJS with Typescript (trial, so everything is set to warnings only) */
+    angular: eslintrc_angular,
+  },
 };
