@@ -20,6 +20,16 @@ After installing, update your project's `.eslintrc.json` file to import the rule
 }
 ```
 
+For VSCode add the config path to the workspace settings in the `.vscode/settings.json`
+```json
+{
+  ...
+  "eslint.options": {
+    "configFile": "./.eslintrc.json"
+  }
+}
+```
+
 To run the linter:
 
 ```sh
