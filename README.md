@@ -23,7 +23,7 @@ e.g in `./eslintrc.json`
 
 ```json
 {
-  "extends": ["@uniwise/eslint-config/typescript"],
+  "extends": ["@uniwise/eslint-config"],
   "rules": {
     "overriding_some_rule": "warn"
   }
