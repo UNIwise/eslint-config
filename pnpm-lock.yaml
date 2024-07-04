@@ -14,6 +14,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^5.62.0
         version: 5.62.0(eslint@8.57.0)(typescript@5.1.6)
+      '@uniwise/prettier-config':
+        specifier: ^0.0.2
+        version: 0.0.2(prettier@3.3.2)
       eslint:
         specifier: ^8.45.0
         version: 8.57.0
@@ -157,6 +160,12 @@ packages:
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+
+  '@uniwise/prettier-config@0.0.2':
+    resolution: {integrity: sha512-ZxdaYWJghNlwFFZqWX/oA0aK+VdL565O/r8aTu3HPwUgUSklzF8f7V8fgq/ZshdQHg478a1OMgkRz5rabUj3cg==, tarball: https://npm.pkg.github.com/download/@UNIwise/prettier-config/0.0.2/0f14e9c0efafaa1437ee4538cab1596bb284a517}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      prettier: 3.x
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1242,6 +1251,10 @@ snapshots:
       eslint-visitor-keys: 3.4.3
 
   '@ungap/structured-clone@1.2.0': {}
+
+  '@uniwise/prettier-config@0.0.2(prettier@3.3.2)':
+    dependencies:
+      prettier: 3.3.2
 
   acorn-jsx@5.3.2(acorn@8.12.1):
     dependencies:
