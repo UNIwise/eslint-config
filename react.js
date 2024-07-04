@@ -8,8 +8,13 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: [...typescript.plugins, 'react'],
-  extends: [...typescript.extends, 'plugin:react/recommended'],
+  plugins: [...typescript.plugins, 'react', 'prettier'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'plugin:prettier/recommended'
+  ],
   rules: {
     ...typescript.rules,
     'react/prop-types': 'off',
