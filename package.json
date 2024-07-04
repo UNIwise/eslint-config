@@ -37,11 +37,6 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=20.0.0"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": false,
-    "singleQuote": true
+    "node": ">=16.0.0"
   }
 }
