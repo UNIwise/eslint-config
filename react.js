@@ -18,5 +18,7 @@ module.exports = {
   rules: {
     ...typescript.rules,
     'react/prop-types': 'off',
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
   },
 };
