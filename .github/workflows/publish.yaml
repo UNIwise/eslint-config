@@ -6,6 +6,7 @@ on:
 
 jobs:
   publish: 
+    runs-on: default
     steps:
       - uses: actions/checkout@v2
       
