@@ -6,10 +6,10 @@ WISEflow's ESLint config for react.
 
 ```sh
 # Install eslint and required packages
-yarn add -D @uniwise/eslint-config eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript eslint-plugin-import prettier eslint-config-prettier eslint-plugin-prettier
+pnpm i -D @uniwise/eslint-config eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript eslint-plugin-import prettier eslint-config-prettier eslint-plugin-prettier
 
 # For React add react plugin
-yarn add -D eslint-plugin-react
+pnpm i -D eslint-plugin-react
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ module.exports = {
 To run the linter:
 
 ```sh
-yarn eslint src/
+pnpm eslint src/
 ```
 
 ---
